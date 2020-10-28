@@ -1,0 +1,20 @@
+
+.fondo{
+    background-image:url('../Img/fondost.jpg') ;
+    width: 100%;
+    height: 100vh ; /*vh es 100 del dispositivo en que se habra la pagina web*/
+    background-size: cover;
+    background-position: center;
+    
+}
+body{
+    
+    font-family: "Bradhitc";
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    scroll-margin: 0;
+
+}
