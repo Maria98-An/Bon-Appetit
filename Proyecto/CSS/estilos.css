@@ -1,6 +1,22 @@
 
 .fondo{
-    background-image:url('../Img/fondost.jpg') ;
+    background-image:url('../Img/fondost.jpg' ) ;
+    width: 100%;
+    height: 100vh ; /*vh es 100 del dispositivo en que se habra la pagina web*/
+    background-size: cover;
+    background-position: center;
+    
+}
+.comida{
+ 
+    padding: 70px; margin: 10px; border: 0px ; float: right; width: 550px; height: 650px;
+    position: left;
+}
+h1{
+    font-family: "Bradhitc";
+}
+html{
+    background-image:url('../Img/fondost.jpg' ) ;
     width: 100%;
     height: 100vh ; /*vh es 100 del dispositivo en que se habra la pagina web*/
     background-size: cover;
@@ -12,6 +28,7 @@ body{
     font-family: "Bradhitc";
     color: white;
     font-size: 45px;
+    line-height: 20px;
     text-align: center;
     margin: 0;
     padding: 0;
