@@ -1,0 +1,24 @@
+.fondo1, html{
+    background-image:url('../Img/find.jpg' ) ;
+    width: 100%;
+    height: 100vh; /*vh es 100 del dispositivo en que se habra la pagina web*/
+    background-size: cover;
+    background-position: center;
+    
+}
+h1{
+    font-size: 200px;
+    color: red ;
+    text-shadow: 200px,200px,200px black;
+    text-align: center;
+    font-family: "brush-script-mt-italic";
+    line-height: 20px;
+
+}
+h2{
+    font-family: "Bradhitc";
+    color: white;
+    text-align: left;
+    font-size: 60px;
+    line-height: 20px;
+}

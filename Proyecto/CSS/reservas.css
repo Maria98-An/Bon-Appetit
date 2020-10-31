@@ -1,0 +1,30 @@
+.fondo1, html{
+    background-image:url('../Img/reser.jpg' ) ;
+    width: 100%;
+    height: 100vh; /*vh es 100 del dispositivo en que se habra la pagina web*/
+    background-size: cover;
+    background-position: center;
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif ;
+    color: white ;
+    font-size: 28px;
+    text-shadow: 20px, 20px, 20px red;
+    margin: 200px;
+    padding: 50px;
+    line-height: 20px;
+    border:white 15px solid;
+    width: 280px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    top: 80px;
+
+}
+h2{
+    font-family: "bradhitc";
+    color: white;
+    font-size: 50px;
+
+}

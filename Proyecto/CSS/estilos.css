@@ -1,21 +1,36 @@
 
-.fondo{
+.fondo, html{
     background-image:url('../Img/fondo2.jpg' ) ;
     width: 100%;
-    height: 100vh ; /*vh es 100 del dispositivo en que se habra la pagina web*/
+    height: 100vh; /*vh es 100 del dispositivo en que se habra la pagina web*/
     background-size: cover;
     background-position: center;
     
 }
+
 .comida{
  
-    padding: 70px; margin: 10px; border: 0px ; float: right; width: 550px; height: 650px;
+    padding: 70px; margin: 10px; border: 0px ; float: right; width: 600px; height: 800px;
     position: left;
 }
 h1{
-    font-family: "Bradhitc";
+    font-family: "bradhitc";
 }
-.Reservas{
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+h3{
+    
+    font-family: "brush-script-mt-italic";
+    scroll-margin: center;
+    position: absolute;
+    display: flex;
+    margin: 230px;
+    top: 1050px;
+}
+
+.Pedidos, .menu, .reservas{
     font-family: Arial;
     color: white;
     font-size: 55px;
@@ -23,20 +38,18 @@ h1{
     text-align: center;
     margin: 100px;
     padding: 80px;
-    scroll-margin: 0;
-
-}
-.pedidos{
-
-}
-html{
-    background-image:url('../Img/fondo2.jpg' ) ;
-    width: 100%;
-    height: 100vh ; /*vh es 100 del dispositivo en que se habra la pagina web*/
-    background-size: cover;
-    background-position: center;
+    scroll-margin: left;
+    position: relative;
+    display: flex;
+    top: -550px;
+    border: white 20px solid;
+   width: 330px;
+   height: 20px;
+   text-align: center;
     
+ 
 }
+
 body{
     
     font-family: "Bradhitc";
